@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <div>App should show on the screen.</div>
+    <main>
+      <Navbar />
+    </main>
   )
 }
 
